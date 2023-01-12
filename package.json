@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Javadef/complex-work.git"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Javadef/complex-work/issues"
   },
-  "homepage": "https://github.com/Javadef/complex-work#readme"
+  "homepage": "https://github.com/Javadef/complex-work#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }

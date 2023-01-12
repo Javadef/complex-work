@@ -1,125 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CSS Layouts</title>
-  </head>
-  <body>
-      <header>
-        <section class="header_line">
-          <h1 class="logo">BLACK &amp; WHITE</h1>
-          <nav class="nav_top">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Vacancies</a></li>
-              <li><a href="#">Shop</a></li>
-            </ul>
-          </nav>
-        </section>
-        <section class="title_section">
-          <h1 class="title letter_spacing">BLACK <span class="title_element">&amp;</span> WHITE</h1>
-          <p class="subtitle">An Original Brands Since 1965</p>
-          <button class="header_button" type="button">Show More</button>
-        </section>
-      </header>
-      <main>
-        <article class="article">
-          <h2 class="article_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vino <span class="importat_words">quisque ut</span> veritas.</h2>
-          <p class="article_caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec ligula odio. Maecenas rhoncus metus neque, a vestibulum felis rutrum at. Phasellus hendrerit egestas dapibus. Vestibulum viverra metus tortor, id gravida dui gravida vel. Aenean urna tellus, consectetur id velit vitae, feugiat.</p>
-        </article>
-        <article class="content_article">
-          <h1 class="content_title">Read some of our featured articles</h1>
-          <figure class="section_content">
-            <div class="content">
-              <button class="like_button" type="button">172&#10084;</button>
-              <p class="content_date">Juniari'15 South France</p>
-              <img src="img/sample.jpg" alt="sample">
-            </div>
-            <figcaption class="content_caption">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique mattis sapien, convallis rutrum massa tristique in. Praesent sollicitudin eleifend tortor, vel ullamcorper mauris lobortis et. Duis leo tortor, efficitur.
-            </figcaption>
-          </figure>
-          <figure class="section_content">
-            <figcaption class="content_caption">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique mattis sapien, convallis rutrum massa tristique in. Praesent sollicitudin eleifend tortor, vel ullamcorper mauris lobortis et. Duis leo tortor, efficitur.
-            </figcaption>
-            <div class="content">
-              <button class="like_button" type="button">172&#10084;</button>
-              <p class="content_date">Juniari'15 South America</p>
-              <img src="img/sample1.jpg" alt="sample">
-            </div>
-          </figure>
-          <figure class="section_content">
-            <div class="content">
-              <button class="like_button" type="button">20&#10084;</button>
-              <p class="content_date">Juniari'15 South France</p>
-              <img src="img/sample.jpg" alt="sample">
-            </div>
-            <figcaption class="content_caption">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique mattis sapien, convallis rutrum massa tristique in. Praesent sollicitudin eleifend tortor, vel ullamcorper mauris lobortis et. Duis leo tortor, efficitur.
-            </figcaption>
-          </figure>
-          <figure class="section_content">
-            <figcaption class="content_caption">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique mattis sapien, convallis rutrum massa tristique in. Praesent sollicitudin eleifend tortor, vel ullamcorper mauris lobortis et. Duis leo tortor, efficitur.
-            </figcaption>
-            <div class="content">
-              <button class="like_button" type="button">50&#10084;</button>
-              <p class="content_date">Juniari'15 South America</p>
-              <img src="img/sample1.jpg" alt="sample">
-            </div>
-          </figure>
-          <section class="section subscribe_section">
-            <h2 class="subscribe_label">Subscribe to our <span class="importat_words">newsletter</span></h2>
-            <form class="form">
-              <input type="email" class="email_input" placeholder="Enter your e-mail address">
-              <button class="subscribe_button" type="submit">Subscribe</button>
-            </form>
-          </section>
-        </article>
-      </main>
-      <footer class="footer">
-        <article class="upper_footer_line"><h2 class="disabled">Disabled</h2>
-          <section class="upper_footer_section">
-            <h3>Black &amp; White</h3>
-            <p class="footer_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum nulla in sem pharetra, non suscipit massa cursus. Proin id bibendum massa.</p>
-          </section>
-          <section class="upper_footer_section">
-            <h3>Last Tweet</h3>
-            <p class="footer_content last_tweet">Nunc eget turpis dolor. Nullam auctor eget elit id pretium. Nulla maximus fringilla diam, non pellentesque lectus feugiat sit amet. Aenean at.</p>
-            <p class="last_tweet_date">3 hours ago</p>
-          </section>
-          <section class="upper_footer_section">
-            <h3>Contact</h3>
-            <p class="footer_content">www.loremipsumdolar.nl</p>
-            <p class="footer_content">182 AB Your Street Name</p>
-            <p class="footer_content">e-mail@loremipsum.com</p>
-            <p class="footer_content">+(121)01 23 45 679</p>
-          </section>
-          <section class="upper_footer_section">
-            <h3>Newsletter</h3>
-            <p class="footer_content">Mauris facilisis erat vitae libero auctor, et ultrices purus iaculis. Donec est.</p>
-            <form class="form">
-              <input type="email" class="email_input" placeholder="Enter your e-mail address">
-              <button class="subscribe_button" type="submit">Subscribe</button>
-            </form>
-          </section>
-        </article>
-        <hr class="footer_divide">
-        <article class="footer_line">
-          <h2 class="footer_content">&copy; 2015 Ruben Stom</h2>
-          <nav class="nav_bottom">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Vacancies</a></li>
-            </ul>
-          </nav>
-        </article>
-      </footer>
-  </body>
+<html lang="en-US" dir="ltr">
+    <head>
+        <title>Complex work</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="./variables.css">
+        <link rel="stylesheet" href="./general.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <section class="header_line">
+                <img class="logo" src="" alt="Project">
+                <nav class="nav_top">
+                    <ul>
+                    <li><a class="scaled" href="#">Project</a></li>
+                    <li><a class="scaled" href="#">About us</a></li>
+                    <li><a class="scaled" href="#">Stories</a></li>
+                    <li><a class="scaled" href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="title_section">
+                <div>
+                    <img class="logo-title" src="./images/logo.png" alt="logo">
+                    <h1>Your Headline Here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur  
+                         adipiscing elit sed do eiusmod.</p>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h1>This is the Section Headline,<br>
+                        Continues to Two Lines
+                    </h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> 
+                       adipiscing elit sed do eiusmod.
+                    </p>
+                </div>
+                <div class="left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.
+
+                    </p>
+                </div>
+                <div class="right">
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                    </p>
+                </div>
+                <a href="#" class="btn">Read more</a>            
+                 
+            </section>
+            <section>
+                <h1>Learn more<br>
+                    about our culture...
+                </h1>
+                <a href="#" class="btn">play</a>   
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+
+            </section>
+        </main>
+        <footer>
+            <img class="logo" src="./images/[PLACEHOLDER LOGO].png" alt="logo">
+            
+            <address>
+                Contact us: <br>
+                <a href="https://developer.mozilla.org/en-US/">developer.mozilla.org</a> <br>
+                <a href="mailto:test@test.gmail.com">test@test.gmail.com</a>
+            </address>
+        </footer>
+    </body>
 </html>
